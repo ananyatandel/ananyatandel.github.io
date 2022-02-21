@@ -19,7 +19,7 @@ p {
 }
 
 img {
-  height: 50%;
+  height: 100%;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -30,4 +30,14 @@ ol {
   background-color: #A7D4DE;
   color: #1C639F;
   font-size: large;
+}
+
+a:active {
+  background-color: #FFFF;
+  color: #1C639F;
+}
+
+a:hover {
+  background-color: #FFFF;
+  color: #C9757F;
 }
