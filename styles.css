@@ -9,8 +9,8 @@ p {
 }
 
 img {
-  height: inherit;
-  width: inherit;
+  height: 1080px;
+  width: 720px;
 }
 
 ol {
