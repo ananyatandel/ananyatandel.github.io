@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  position: sticky;
+  top: 0;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+  margin: 20px 0px;
+}
+
+.navbar ul li {
+  font-family: 'IM Fell DW Pica', serif;
+  font-size: 1.1rem;
+  font-style: italic;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 8px 25px;
+  transition: all .5s ease;
+}
+
+
+.navbar ul li a:hover {
+  background-color: white;
+  color: black;
+  box-shadow: 0 0 10px white;
+}
+
+
+
+
+
+
+
+
+
+/* body {
+  background-color: #1C639F;
+  color: #ffff;
+  font-family: 'IM Fell DW Pica', serif;
+}
+
+h1 {
+  text-align: center;
+  font-size: xx-large;
+}
+
+h2 {
+  text-align: center;
+  font-size: x-large;
+}
+
+p {
+  font-size: large;
+}
+
+img {
+  height: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+ol {
+  background-color: #A7D4DE;
+  color: #1C639F;
+  font-size: large;
+}
+
+a:active {
+  background-color: #FFFF;
+  color: #1C639F;
+}
+
+a:hover {
+  background-color: #FFFF;
+  color: #C9757F;
+} */
