@@ -64,7 +64,7 @@
   position: absolute;
   top: 0;
   right: 0;
-  background: url("img/ocean.jpeg") no-repeat center center/cover;
+  background: url("ocean.jpeg") no-repeat center center/cover;
   height: 900px;
   width: 100%;
   z-index: -1;
