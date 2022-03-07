@@ -112,10 +112,10 @@
   display: flex;
 }
 
-#pic img {
+/* #pic img {
   width: 575px;
   height: 400px;
-}
+} */
 
 #intro {
   display: flex;
