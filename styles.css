@@ -4,6 +4,15 @@
   box-sizing: border-box;
 }
 
+@media screen and (max-width: 530px) {
+  #home {
+    height: 820px;
+  }
+  .headings {
+    font-size: 1.7rem;
+  }
+}
+
 .navbar {
   display: flex;
   justify-content: center;

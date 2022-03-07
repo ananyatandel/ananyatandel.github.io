@@ -4,6 +4,19 @@
   box-sizing: border-box;
 }
 
+@media screen and (max-width: 530px) {
+  #pic img {
+    width: 400px;
+    height: 500px;
+  }
+  #intro h2 {
+    font-size: 1.5rem;
+  }
+  .headings {
+    font-size: 1.7rem;
+  }
+}
+
 .navbar {
   display: flex;
   justify-content: center;

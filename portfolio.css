@@ -4,6 +4,17 @@
   box-sizing: border-box;
 }
 
+@media screen and (max-width: 530px) {
+  .gallery img {
+    width: 250px;
+    height: 150px;
+    margin: 10px;
+  }
+  .headings {
+    font-size: 1.7rem;
+  }
+}
+
 .navbar {
   display: flex;
   justify-content: center;

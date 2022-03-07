@@ -4,6 +4,21 @@
   box-sizing: border-box;
 }
 
+@media screen and (max-width: 530px) {
+  .input {
+    width: 80%;
+  }
+  #msg {
+    width: 70%;
+  }
+  #send {
+    width: 20%;
+  }
+  .headings {
+    font-size: 1.7rem;
+  }
+}
+
 .navbar {
   display: flex;
   justify-content: center;
