@@ -58,9 +58,11 @@
   flex-direction: column;
   text-align: justify;
   padding: 10px;
+  font-family: 'IM Fell DW Pica', serif;
 }
 
 #intro h2 {
   font-size: 2rem;
   margin-bottom: 20px;
+  font-family: 'IM Fell DW Pica', serif;
 }
