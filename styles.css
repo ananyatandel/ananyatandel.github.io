@@ -99,7 +99,7 @@
 }
 
 
-
+/* 
 #about {
   display: flex;
   flex-direction: column;
@@ -112,10 +112,10 @@
   display: flex;
 }
 
-/* #pic img {
+#pic img {
   width: 575px;
   height: 400px;
-} */
+}
 
 #intro {
   display: flex;
@@ -127,4 +127,4 @@
 #intro h2 {
   font-size: 2rem;
   margin-bottom: 20px;
-}
+} */
