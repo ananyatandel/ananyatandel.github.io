@@ -64,7 +64,8 @@
   position: absolute;
   top: 0;
   right: 0;
-  background-image: url("oceanbackground.jpg"); 
+  background-image: url("oceanbackground.jpg");
+  background-color: white;
   /* no-repeat center center/cover; */
   height: 900px;
   width: 100%;
