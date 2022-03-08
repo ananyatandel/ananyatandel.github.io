@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-@media screen and (min-width: 400px) {
+/* @media screen and (min-width: 400px) {
   .input {
     width: 80%;
   }
@@ -17,7 +17,7 @@
   .headings {
     font-size: 1.7rem;
   }
-}
+} */
 
 .navbar {
   display: flex;

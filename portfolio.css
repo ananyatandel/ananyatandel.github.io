@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-@media screen and (min-width: 400px) {
+/* @media screen and (min-width: 400px) {
   .gallery img {
     width: 250px;
     height: 150px;
@@ -13,7 +13,7 @@
   .headings {
     font-size: 1.7rem;
   }
-}
+} */
 
 .navbar {
   display: flex;

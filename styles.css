@@ -4,14 +4,14 @@
   box-sizing: border-box;
 }
 
-@media screen and (min-width: 399px) {
+/* @media screen and (min-width: 399px) {
   #home {
     height: 820px;
   }
   .headings {
     font-size: 1.7rem;
   }
-}
+} */
 
 .navbar {
   display: flex;
@@ -64,7 +64,7 @@
   position: absolute;
   top: 0;
   right: 0;
-  background: url("ocean.jpeg") no-repeat center center/cover;
+  background: url("oceanbackground.jpg") no-repeat center center/cover;
   height: 900px;
   width: 100%;
   z-index: -1;

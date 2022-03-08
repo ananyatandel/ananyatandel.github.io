@@ -3,7 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+/* 
 @media screen and (min-width: 400px) {
   #pic img {
     width: 400px;
@@ -15,7 +15,7 @@
   .headings {
     font-size: 1.7rem;
   }
-}
+} */
 
 .navbar {
   display: flex;
