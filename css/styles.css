@@ -1,4 +1,4 @@
-/* home */
+/* home section */
 
 * {
   margin: 0;
@@ -19,8 +19,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: white;
-  /* check above */
+  background-color: #ebdad3;
   position: sticky;
   top: 0;
 }
@@ -40,27 +39,26 @@
 .navbar ul li a {
   text-decoration: none;
   color: black;
-  /* check above */
   padding: 8px 25px;
   transition: all .5s ease;
 }
 
 
 .navbar ul li a:hover {
-  background-color: black;
-  color: white;
-  box-shadow: 0 0 10px black;
+  background-color: white;
+  color: black;
+  box-shadow: 0 0 10px white;
 }
 
 
 #home {
   display: flex;
   flex-direction: column;
-  background-color: black;
+  background-color: #e1dce4;
   height: 840px;
   justify-content: center;
   align-items: center;
-  color: white;
+  color: black;
 }
 
 #home::before {
@@ -68,7 +66,9 @@
   position: absolute;
   top: 0;
   right: 0;
-  background: url("oceanbackground.jpg") no-repeat center center/cover;
+  /* background: url("oceanbackground.jpg") no-repeat center center/cover; */
+  /* background-image: url("oceanbackground.jpg");
+  background-color: white; */
   height: 900px;
   width: 100%;
   z-index: -1;
@@ -93,13 +93,14 @@
 
 .btn {
   padding: 10px 35px;
-  background-color: transparent;
-  border: 1px solid white;
-  color: white;
+  background-color: #ebdad3;
+  border: 1px solid black;
+  color: black;
   outline: none;
   transition: 0.6s ease;
   font-family: 'IM Fell DW Pica', serif;
   font-style: italic;
+  font-size: 15px;
 }
 
 .btn:hover {
@@ -113,20 +114,18 @@
 
 
 /* about section */
+body {
+  background-color: #e1dce4;
+}
 #about {
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
   padding: 20px;
   margin-bottom: 50px;
+  background-color: #e1dce4;
 }
 
-.headings {
-  /* font-family: 'IM Fell DW Pica', serif; */
-  /* font-size: 3rem; */
-  /* text-align: center; */
-  /* margin: 40px 0px; */
-}
 
 #pic {
   display: flex;
@@ -143,6 +142,7 @@
   text-align: justify;
   padding: 10px;
   font-family: 'IM Fell DW Pica', serif;
+  font-size: 18px;
 }
 
 #intro h2 {
@@ -157,7 +157,7 @@
 #portfolio {
   display: flex;
   flex-direction: column;
-  background-color: grey;
+  background-color: #e1dce4;
   color: white;
   align-items: center;
   padding: 20px;
@@ -176,15 +176,19 @@
   margin: 10px;
 }
 
-
+/* resume section */
+.pdf {
+margin-left: auto;
+margin-right: auto;
+}
 
 /* contact section */
 #contact {
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
-  background-color: black;
-  color: white;
+  background-color: #e1dce4;
+  color: black;
   padding: 20px;
 }
 
@@ -223,4 +227,26 @@
 #send:hover {
   cursor: pointer;
   box-shadow: 0 0 10px white;
+}
+
+p {
+  font-family: 'IM Fell DW Pica', serif;
+  font-size: 20px;
+  text-align: center;
+}
+
+a:default {
+  color: black;
+  text-decoration: underline;
+}
+
+a:hover {
+  background-color: #ebdad3;
+  color: black;
+  text-decoration: none;
+}
+
+a:active {
+  background-color: white;
+  color: #e1dce4;
 }
