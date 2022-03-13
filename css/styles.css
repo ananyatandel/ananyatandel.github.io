@@ -183,6 +183,10 @@ ol {
   padding: 20px;
 }
 
+#portfoliosubtitle {
+  text-align: center;
+}
+
 .gallery {
   display: flex;
   flex-wrap: wrap;
