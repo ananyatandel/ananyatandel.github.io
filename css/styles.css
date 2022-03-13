@@ -120,6 +120,15 @@ p {
   text-align: justify;
 }
 
+h3 {
+  font-size: 1.5rem;
+}
+
+ol {
+  padding: 20px;
+  margin-bottom: 50px;
+}
+
 #about {
   display: flex;
   flex-direction: column;
