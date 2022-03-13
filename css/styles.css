@@ -1,3 +1,4 @@
+/* reset page */
 * {
   margin: 0;
   padding: 0;
@@ -202,6 +203,15 @@ ol {
   width: 360px;
   height: 240px;
   margin: 10px;
+}
+
+h2 {
+  margin-bottom: 50px;
+  color: black;
+}
+
+#link:hover {
+  opacity: 0.8;
 }
 
 
