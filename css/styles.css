@@ -5,15 +5,6 @@
   box-sizing: border-box;
 }
 
-/* @media screen and (min-width: 399px) {
-  #home {
-    height: 820px;
-  }
-  .headings {
-    font-size: 1.7rem;
-  }
-} */
-
 .navbar {
   display: flex;
   justify-content: center;
@@ -208,6 +199,7 @@ ol {
 h2 {
   margin-bottom: 50px;
   color: black;
+  text-align: center;
 }
 
 #link:hover {
@@ -328,4 +320,67 @@ hr {
   font-family: 'DM Serif Display', serif;
   background-color: white;
   color: black;
+}
+
+
+@media screen and (max-width: 570px) {
+  .navbar ul {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  #home {
+    height: 50px;
+  }
+
+  .headings {
+    font-size: 1.7rem;
+  }
+
+  #pic {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #pic img {
+    width: 300px;
+    height: 400px;
+  }
+
+  #intro h2 {
+    text-align: center;
+    padding: 10px;
+    font-size: 1.5rem;
+  }
+
+  #intro {
+    text-align: left;
+  }
+
+  .gallery img {
+    width: 350px;
+    height: 250px;
+    margin: 10px;
+  }
+
+  .pdf {
+    position: relative;
+    display: block;
+    height: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+
+  .input {
+    width: 80%;
+  }
+
+  #msg {
+    width: 80%;
+  }
+
+  #send {
+    width: 30%;
+  }
+
 }
