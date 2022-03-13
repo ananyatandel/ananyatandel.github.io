@@ -39,6 +39,11 @@
   box-shadow: 0 0 10px #e1dce4;
 }
 
+.navbar ul li a:active {
+  background-color: black;
+  color: white;
+}
+
 /* home section */
 #home {
   display: flex;
@@ -100,6 +105,13 @@
   font-weight: bold;
 }
 
+.btn:active {
+  cursor: pointer;
+  background-color: white;
+  color: #e1dce4;
+  font-family: 'DM Serif Display', serif;
+  font-weight: bold;
+}
 
 /* about section */
 body {
@@ -142,7 +154,7 @@ ol {
   display: flex;
   flex-direction: column;
   text-align: justify;
-  padding: 10px;
+  padding: 25px;
   font-family: 'DM Serif Display', serif;
   font-size: 18px;
 }
@@ -385,6 +397,33 @@ hr {
 
   #send {
     width: 30%;
+  }
+
+}
+
+
+@media screen and (min-width: 1900px) {
+  #pic {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #pic img {
+    width: 500px;
+    height: 600px;
+  }
+
+  #intro {
+    text-align: justify;
+    max-width: 66ch;
+    padding: 20px;
+  }
+
+  .gallery img {
+    width: 370px;
+    height: 260px;
+    margin: 25px;
   }
 
 }
