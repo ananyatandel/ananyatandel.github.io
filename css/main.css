@@ -1,0 +1,36 @@
+body {
+  background-color: #e1dce4;
+  font-family: 'DM Serif Display', serif;
+}
+
+h1 {
+  font-weight: 300;
+  text-align: center;
+}
+
+strong {
+  font-weight: 900;
+}
+
+button {
+  transition: all 1000ms ease-in-out;
+  font-size: 40px;
+  font-family: 'DM Serif Display', serif;
+  color: black;
+  background-color: white;
+}
+
+.was-clicked {
+  color: red;
+  padding: 20px;
+}
+
+p {
+  font-family: 'DM Serif Display', serif;
+  text-align: center;
+  background: blue;
+  color: white;
+  padding: 5px 20px;
+  display: inline-block;
+  cursor: pointer;
+}
