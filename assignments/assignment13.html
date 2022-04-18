@@ -5,17 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width">
     <script defer src="../js/assignment13.js" charset="utf-8"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap" rel="stylesheet">
     <title>Silly story generator</title>
 
     <style>
 
     body {
-      font-family: helvetica, sans-serif;
+      font-family: 'DM Serif Display', serif;
       width: 350px;
+      background-color: #e1dce4;
     }
 
     label {
       font-weight: bold;
+      font-family: 'DM Serif Display', serif;
     }
 
     div {
@@ -25,6 +30,7 @@
     input[type="text"] {
       padding: 5px;
       width: 150px;
+      font-family: 'DM Serif Display', serif;
     }
 
     p {
@@ -32,6 +38,44 @@
       color: #5E2612;
       padding: 10px;
       visibility: hidden;
+      font-family: 'DM Serif Display', serif;
+      text-align: center;
+      margin: 25px;
+    }
+
+    button {
+      /* background-color: black;
+      color: white;
+      padding: 25px;
+      margin: 25px;
+      font-family: 'DM Serif Display', serif;
+      font-size: 20px; */
+      padding: 10px 35px;
+      background-color: white;
+      border: 1px solid black;
+      color: black;
+      outline: none;
+      transition: 0.6s ease;
+      font-family: 'DM Serif Display', serif;
+      font-weight: bold;
+      font-size: 15px;
+    }
+
+    button:hover {
+        cursor: pointer;
+        background-color: black;
+        color: white;
+        box-shadow: 0 0 5px black, 0 0 10px black, 0 0 15px black;
+        font-family: 'DM Serif Display', serif;
+        font-weight: bold;
+    }
+
+    button:active {
+        cursor: pointer;
+        background-color: white;
+        color: #e1dce4;
+        font-family: 'DM Serif Display', serif;
+        font-weight: bold;
     }
 
     </style>
