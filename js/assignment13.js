@@ -21,8 +21,8 @@ function result() {
   const yItem = randomValueFromArray(insertY);
   const zItem = randomValueFromArray(insertZ);
 
-  let text = "Visit Microsoft!";
-  let result = text.replace("Microsoft", "W3Schools");
+  // let text = "Visit Microsoft!";
+  // let result = text.replace("Microsoft", "W3Schools");
 
 
 
