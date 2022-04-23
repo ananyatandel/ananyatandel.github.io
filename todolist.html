@@ -6,6 +6,7 @@
       <meta content="width=device-width, initial-scale=1" name="viewport" />
       <title>Ananya's Personal Website</title>
       <link type="text/css" rel="stylesheet" href="css/styles.css">
+      <script defer src="./js/main.js" charset="utf-8"></script>
       <link rel="preconnect" href="https://fonts.googleapis.com">
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
       <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap" rel="stylesheet">
@@ -22,12 +23,20 @@
         </ul>
       </nav>
 
-      <section id="resume">
-        <h1 class="headings">MY RÉSUMÉ</h1>
-          <div id="pdf">
-            <embed src="files/AnanyaResume.pdf" type="application/pdf" width=100% height=600px />
-          </div>
+      <h1 class="headings">TO-DO LIST</h1>
+      <p id="instructions">To add a task, enter a task in the text field below and press the "+" button.
+        <br>
+        To mark a task as completed, click on the task once.
+        <br>
+        To remove a task from the to-do list altogether, double-click on the task.</p>
+        <br>
+      <section id="todolist">
+        <div class="container">
+          <input id="inputField" type="text">
+          <!-- class="btn" -->
+          <button id="addToDo">+</button>
+            <div class="to-dos" id="toDoContainer"></div>
+        </div>
       </section>
-
     </body>
 </html>
