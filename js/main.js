@@ -8,20 +8,24 @@ addToDoButton.addEventListener('click', function(){
   paragraph.classList.add('paragraph-styling');
   paragraph.innerText = inputField.value;
   toDoContainer.appendChild(paragraph);
+  
   // clear the input text field after adding a task
   inputField.value = "";
+
   // function to check off a task from the to do list
   paragraph.addEventListener('click', function(){
     paragraph.style.textDecoration = "line-through";
     paragraph.style.color = "white";
     paragraph.style.backgroundColor = "#228B22";
   })
+
   // function to uncheck a task from the to do list
   // paragraph.addEventListener('mouseDown', function(){
   //   paragraph.style.textDecoration = "none";
   //   paragraph.style.color = "white";
   //   paragraph.style.backgroundColor = "black";
   // })
+
   // function to remove a task from the to do list
   paragraph.addEventListener('dblclick', function(){
     toDoContainer.removeChild(paragraph);
