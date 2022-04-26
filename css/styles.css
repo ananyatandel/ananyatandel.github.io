@@ -355,15 +355,20 @@ hr {
   color: black;
 }
 
-
+#special_stuff {
+  align-content: center;
+  align-items: center;
+}
 /* to do list section */
 #todolist {
   width: 50%;
   margin: 10 auto;
   /* padding: 25px; */
-  margin-left: 550px;
+  margin-left: auto;
+  margin-right: auto;
   font-family: 'DM Serif Display', serif;
   vertical-align: center;
+  text-align: center;
 }
 
 #instructions {
@@ -373,9 +378,9 @@ hr {
   font-weight: normal;
 }
 
-.container {
+/* .container {
   width: 360px;
-}
+} */
 
 #inputField {
   width: 300px;
@@ -386,6 +391,8 @@ hr {
   font-size: 15px;
   vertical-align: middle;
   font-family: 'DM Serif Display', serif;
+  margin-left: auto;
+  margin-right: auto;']'
 }
 
 #addToDo {
