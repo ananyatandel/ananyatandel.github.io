@@ -359,6 +359,9 @@ hr {
   align-content: center;
   align-items: center;
 }
+
+
+
 /* to do list section */
 #todolist {
   width: 50%;
@@ -392,7 +395,7 @@ hr {
   vertical-align: middle;
   font-family: 'DM Serif Display', serif;
   margin-left: auto;
-  margin-right: auto;']'
+  margin-right: auto;
 }
 
 #addToDo {
@@ -406,6 +409,8 @@ hr {
   color: black;
   outline: none;
   transition: 0.5s ease;
+  margin: 15px;
+  width: 10%;
 }
 
 #addToDo:hover {
@@ -443,7 +448,8 @@ hr {
   color: white;
 }
 
-@media screen and (max-width: 570px) {
+@media screen and (max-width: 700px) {
+  /* 570px */
   .navbar ul {
     flex-wrap: wrap;
     justify-content: center;
@@ -455,6 +461,7 @@ hr {
 
   .headings {
     font-size: 1.7rem;
+    text-align: center;
   }
 
   #pic {
@@ -502,6 +509,24 @@ hr {
   #send {
     width: 30%;
   }
+
+  #addToDo {
+    width: 30%;
+    margin: 20px;
+  }
+
+  #inputField {
+    /* align-self: center;
+    vertical-align: middle; */
+    width: 100%;
+    height: 100%;
+  }
+
+  #instructions {
+    padding: 20px;
+    text-align: center;
+    font-size: 20px;
+  }
 }
 
 
@@ -527,6 +552,17 @@ hr {
     width: 370px;
     height: 260px;
     margin: 25px;
+  }
+
+  #inputField {
+    /* align-self: center;
+    vertical-align: middle; */
+    width: 75%;
+  }
+
+  #addToDo {
+    width: 10%;
+    margin: 20px;
   }
 
 }
