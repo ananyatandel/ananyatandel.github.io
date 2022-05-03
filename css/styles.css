@@ -401,7 +401,7 @@ hr {
 #addToDo {
   height: 50px;
   width: 50px;
-  border: 0.5px solid #228B22;
+  border: 0.5px solid #02075d;
   vertical-align: middle;
   font-size: 30px;
   font-family: 'DM Serif Display', serif;
@@ -415,9 +415,9 @@ hr {
 
 #addToDo:hover {
   cursor: pointer;
-  background-color: #228B22;
+  background-color: #02075d;
   color: white;
-  box-shadow: 0 0 5px #228B22, 0 0 10px #228B22, 0 0 15px #228B22;
+  box-shadow: 0 0 5px #02075d, 0 0 10px #02075d, 0 0 15px #02075d;
   font-family: 'DM Serif Display', serif;
   font-weight: bold;
   /* background-color: white;
